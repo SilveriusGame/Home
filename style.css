@@ -138,9 +138,6 @@ body.dark .btn:hover {
 }
 
 .fade-in {
-  animation: fadeInUp 1s ease-out;
-  animation-fill-mode: forwards;
-
+  animation: fadeInUp 1s ease-out forwards;
 }
-
 
