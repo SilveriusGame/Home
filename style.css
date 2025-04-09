@@ -128,3 +128,14 @@ body.dark .btn {
 body.dark .btn:hover {
   background: #4338ca;
 }
+
+.hero p {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem; /* atas kanan/kiri bawah */
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 10px; /* spasi ekstra kalau perlu */
+}
+
