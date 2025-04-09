@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Silverius Game</title>
+  <title>SilveriusGame</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,21 +11,26 @@
     <nav class="navbar">
       <div class="logo">Silverius Game</div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="https://silveriusgame.github.io/Home/">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="https://silveriusgame.github.io/Projects/">Projects</a></li>
         <li><button id="toggle-theme" class="btn-sm">🌙</button></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero fade-in">
-    <h1>Welcome To Silverius Game Pages</h1>
-    <p>I make easy and fun games for everyone</p>
-    <a href="projects.html" class="btn">See All My Games</a>
+    <h1>Welcome To Silverius Game</h1>
+    <p>I Make an Easy And Fun Games For Everyone</p>
+    <a href="projects.html" class="btn">See My Work</a>
   </section>
 
   <script>
+    // Fade-in animation
+    window.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".fade-in").classList.add("show");
+    });
+
     // Dark mode toggle
     const toggleBtn = document.getElementById("toggle-theme");
     toggleBtn.addEventListener("click", () => {
